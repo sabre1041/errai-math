@@ -1,0 +1,45 @@
+body {
+	background-color: black;
+	color: #FF6600;
+	font-family: Georgia, Palatino, serif !important;	
+}
+
+.background-image {
+	position: fixed;
+	bottom: 25px;
+	right: 50px;
+	height: 150px;
+}
+
+.math-panel {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding: 20px;
+	width:250px;
+	border-radius: 12px;
+	background: rgb(82, 62, 62);
+}
+
+.text-fields {
+	width: 45%; 
+	margin-top:10px;
+}
+
+input[type="number"] 
+{
+	width: 75px;
+}
+
+.important {
+	font-weight: bold;
+	
+}
+
+input[type="submit"] {
+	border-style: none;
+}
+
+
+
+

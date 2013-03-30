@@ -1,0 +1,32 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:c="urn:import:com.google.gwt.user.cellview.client">
+	<ui:style field="mathStyle">
+		
+		.calculationStatisticsWidget {
+			border-color: #FF6600;
+			border: 2px solid;
+			padding: 5px;
+			height: 165px;
+		}
+		
+		.calculationStatisticsLabel {
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+		
+		.topMargin {
+			margin-top:10px;
+		}
+		
+	</ui:style>
+
+	<g:FlowPanel styleName="math-panel" width="350px">
+		<g:Label text="Calculations Scoreboard" styleName="{mathStyle.calculationStatisticsLabel}" />
+		<g:ScrollPanel height="200px" styleName="{mathStyle.calculationStatisticsWidget}">
+			<c:CellList pageSize='15' ui:field='statisticsTable' />
+		</g:ScrollPanel>
+		<g:Button ui:field="clearListButton" styleName="{mathStyle.topMargin}" text="Clear" />
+	</g:FlowPanel>
+
+</ui:UiBinder> 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<title>Errai Math Form</title>
+</head>
+<body>
+	<div data-field="mathPanel">
+	<div class="math-panel"
+		style="height: 200px; width: 350px">
+			Operation<br />
+			<div data-field="operations" style="margin-top: 5px"></div>
+			<br />
+			<div data-field="lhsPanel" style="float: left" class="text-fields">
+				<div data-field="lhsLabel">First Value</div>
+				<input data-field="lhs" id="lhs" type="number"  required="required"
+					placeholder="Enter Value" style="margin: 10px 10px 10px 0px"> <br />
+			</div>
+			<div data-field="rhsPanel" style="float: right" class="text-fields">
+				<div data-field="rhsLabel">Second Value</div>
+				<input data-field="rhs" id="rhs" type="number"  required="required"
+					placeholder="Enter Value" style="margin: 10px 10px 10px 0px">
+			</div>
+			<br style="clear:both;" />
+			<button type="submit" data-field="submitMath" style="margin-bottom: 5px">Submit</button>
+			<div data-field="resultLabel"></div>
+	</div>
+	<div data-field="calculationStatisticsWidget">Calculation Statistics Table</div>
+</div>
+</body>
+</html>

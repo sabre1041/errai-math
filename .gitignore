@@ -1,0 +1,8 @@
+target
+.project
+.classpath
+.settings/**
+.metadata
+.classpath/*
+.errai/
+/src/main/webapp/META-INF
