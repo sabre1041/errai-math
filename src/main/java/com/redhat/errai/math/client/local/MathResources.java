@@ -42,6 +42,8 @@ public interface MathResources extends ClientBundle {
 	@Source("com/redhat/errai/math/client/resources/linux16x14.png")
 	ImageResource linux();
 	
-	// Operating System Images
+	// Unknown
+	@Source("com/redhat/errai/math/client/resources/question16x16.png")
+	ImageResource unknown();
 
 }

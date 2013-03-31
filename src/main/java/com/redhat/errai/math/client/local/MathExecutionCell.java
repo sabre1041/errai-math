@@ -83,7 +83,7 @@ public class MathExecutionCell extends AbstractCell<MathExecution> {
 			}
 		}
 
-		return null;
+		return mathResources.unknown();
 
 	}
 
@@ -104,7 +104,7 @@ public class MathExecutionCell extends AbstractCell<MathExecution> {
 
 		}
 
-		return null;
+		return mathResources.unknown();
 
 	}
 
