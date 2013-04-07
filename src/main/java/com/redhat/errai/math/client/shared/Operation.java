@@ -5,7 +5,7 @@ public enum Operation {
 
 	ADD("Add"),
 	SUBTRACT("Subtract"),
-	MULTIPLY("Multiple"),
+	MULTIPLY("Multiply"),
 	DIVIDE("Divide"),
 	EXPONENT("Exponent"),
 	FACTORIAL("Factorial"),
