@@ -17,6 +17,11 @@ Requirements:
 
 * Apache Maven
 
+To experience the full functionality of this application, simultaneously navigate to the application using multiple browsers or multiple tabs within the same browser. Any submission will result in the calculations scoreboard to update on all sessions. Any request on the exposed JAX-RS endpoint will also result in the calculations scoreboard to update. To demonstrate this functionality, navigate to the application in one browser, and navigate to the following link in another: 
+
+* Local JBoss Deployment - [http://localhost:8080/errai-math/math/add?LHS=5&RHS=5](http://localhost:8080/errai-math/math/add?LHS=5&RHS=5)
+* OpenShift Deployment - [http://erraimath.andyserver.com/math/add?LHS=5&RHS=5](http://erraimath.andyserver.com/math/add?LHS=5&RHS=5)
+
 
 ####Running from JBoss Developer Studio/Eclipse
 
