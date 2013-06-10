@@ -11,7 +11,7 @@
     </Array>
 
     <New id="BeanManager" class="org.mortbay.jetty.plus.naming.Resource">
-        <Arg><Ref id="sample-weld"/></Arg>
+        <Arg><Ref id="sample-bean"/></Arg>
         <Arg>BeanManager</Arg>
         <Arg>
             <New class="javax.naming.Reference">
@@ -23,7 +23,7 @@
     </New>
 
      <New id="Errai" class="org.mortbay.jetty.plus.naming.Resource">
-        <Arg><Ref id="sample-weld"/></Arg>
+        <Arg><Ref id="sample-errai"/></Arg>
         <Arg>ErraiService</Arg>
         <Arg>
             <New class="javax.naming.Reference">
